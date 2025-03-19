@@ -98,7 +98,7 @@ var (
 		"ief":     "image/ief",
 		"png":     "image/png",
 		"wbmp":    "image/vnd.wap.wbmp",
-		"webp":    "Image/webp",
+		"webp":    "image/webp",
 		"ras":     "image/x-cmu-raster",
 		"pnm":     "image/x-portable-anymap",
 		"pbm":     "image/x-portable-bitmap",
