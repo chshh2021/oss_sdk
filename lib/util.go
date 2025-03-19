@@ -16,12 +16,3 @@ func GenerationPath(group, suffix string) string {
 	path := fmt.Sprintf("/%s/%d_%d_%d_%v.%s", group, year, month, day, microunixtime, suffix)
 	return path
 }
-
-// 2025-03-18 Tiger
-func GetSuffixByMimeType(suffix string) map[string]string {
-	typeInfo := make(map[string]string)
-	for k, v := range MIMETYPE {
-		typeInfo[v] = k
-	}
-	return typeInfo
-}

@@ -223,3 +223,12 @@ func CreateMore(bucket, resource, content string, suffix string) int {
 	status, _, _ := stdoss.Do()
 	return status
 }
+
+// 2025-03-18 Tiger
+func GetSuffixByMimeType(suffix string) map[string]string {
+	typeInfo := make(map[string]string)
+	for k, v := range MIMETYPE {
+		typeInfo[v] = k
+	}
+	return typeInfo
+}
